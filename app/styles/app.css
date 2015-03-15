@@ -6,10 +6,12 @@
 
 .sidebar {
   border: 5px solid pink;
+  vertical-align: top;
 }
 
 .route1Right {
   border: 5px solid green;
+  vertical-align: top;
 }
 
 .route1bOutlet {
