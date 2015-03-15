@@ -9,11 +9,15 @@ export default Ember.Route.extend({
       outlet: 'sidebar',
       controller: 'route1'
     });
-    this.render('route1b', {
+    this.render('route1c', {
       into: 'route1',
-      outlet: 'route1Right',
-      controller: 'route2'
+      outlet: 'route1Right'
     });
+    this.render('route1c2', {
+      into: 'route1c',
+      controller: 'route1'
+    });
+
   }
 
 
