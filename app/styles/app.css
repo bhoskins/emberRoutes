@@ -1,0 +1,13 @@
+.sidebar,
+.route1Right {
+  display: inline-block;
+  width: 45%;
+}
+
+.sidebar {
+  border: 5px solid pink;
+}
+
+.route1Right {
+  border: 5px solid green;
+}
