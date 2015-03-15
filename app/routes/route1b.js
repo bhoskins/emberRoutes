@@ -1,7 +1,15 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
-  // controllerName: 'route2',
+  renderTemplate: function(){
+    this.render();
+    this.render('route2', {
+      into: 'route1.route1b',
+      outlet: 'route1bOutlet',
+      controller: 'route1'
+    });
+
+  }
 
 
 });

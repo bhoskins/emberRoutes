@@ -11,3 +11,7 @@
 .route1Right {
   border: 5px solid green;
 }
+
+.route1bOutlet {
+  border: 5px solid blue;
+}
